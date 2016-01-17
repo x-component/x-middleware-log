@@ -1,0 +1,17 @@
+{
+	"name"    : "x-middleware-log",
+	"version" : "1.0.0",
+	"license" : "MIT",
+	"dependencies":{
+		"x-log"          : "1.x.x",
+		"x-common"       : "1.x.x",
+		"x-server-stats" : "1.x.x"
+	},
+	"devDependencies" : {
+		"x-publish": "1.x.x"
+	},
+	"main" : "log.js",
+	"scripts": {
+		"prepublish": "./node_modules/x-publish/scripts/prepublish.sh"
+	}
+}
